@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>SoundByte- Music Player🎧</title>
+</head>
+
+<body>
+    <nav class="flex">
+        <a class="brand" href="#"><img src="images/logo.svg" alt="logo of soundbyte">SoundByte</a>
+        <a href="">All your favorite songs in one place</a>
+    </nav>
+    <aside class="asidebar borders flex">
+        <div class="expanding-icon">
+            <i class="fa-solid fa-up-right-and-down-left-from-center" style="color: #ffffff;"></i>
+        </div>
+        <div class="cross-icon hide">
+            <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+        </div>
+        <div class="aside-elements flex">
+            <a class="homebtn" href="#">Home</a>
+            <a href="#">Search</a>
+            <a href="#">Library</a>
+        </div>
+    </aside>
+    <div class="album-container flex">
+        <div class="album-1 album">
+            <div class="box">
+                <i id="0" class="fa-regular boxplaypause fa-circle-play" style="color: #ffffff;"></i>
+            </div>
+            <h2 class="song-name">Summer Breeze</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iste.</p>
+        </div>
+        <div class="album-2 album">
+            <div class="box">
+                <i id="1" class="fa-regular boxplaypause fa-circle-play" style="color: #ffffff;"></i>
+            </div>
+            <h2 class="song-name">Running on Empty</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iste.</p>
+        </div>
+        <div class="album-3 album">
+            <div class="box">
+                <i id="2" class="fa-regular boxplaypause fa-circle-play" style="color: #ffffff;"></i>
+            </div>
+            <h2 class="song-name">Fading Memories</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iste.</p>
+        </div>
+        <div class="album-4 album">
+            <div class="box">
+                <i id="3" class="fa-regular boxplaypause fa-circle-play" style="color: #ffffff;"></i>
+            </div>
+            <h2 class="song-name">Shadows of Love</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iste.</p>
+        </div>
+        <div class="album-5 album">
+            <div class="box">
+                <i id="4" class="fa-regular boxplaypause fa-circle-play" style="color: #ffffff;"></i>
+            </div>
+            <h2 class="song-name">Midnight Moon</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iste.</p>
+        </div>
+        <div class="album-6 album">
+            <div class="box">
+                <i id="5" class="fa-regular boxplaypause fa-circle-play" style="color: #ffffff;"></i>
+            </div>
+            <h2 class="song-name">Lost in the Crowd</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iste.</p>
+        </div>
+        <div class="album-7 album">
+            <div class="box">
+                <i id="6" class="fa-regular boxplaypause fa-circle-play" style="color: #ffffff;"></i>
+            </div>
+            <h2 class="song-name">Broken Hearts</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iste.</p>
+        </div>
+        <div class="album-8 album">
+            <div class="box">
+                <i id="7" class="fa-regular boxplaypause fa-circle-play" style="color: #ffffff;"></i>
+            </div>
+            <h2 class="song-name">Chasing Dreams</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iste.</p>
+        </div>
+
+    </div>
+    <footer class="flex">
+        <div class="controls flex">
+            <div class="back-song"><i class="fa-solid fa-backward-step" style="color: #ffffff;"></i></div>
+            <div class="play-pause flex">
+                <div class="play"><i class="fa-regular fa-circle-play" style="color: #ffffff;"></i></div>
+                <div class="pause hide"><i class="fa-sharp fa-regular fa-circle-pause" style="color: #ffffff;"></i>
+                </div>
+            </div>
+            <div class="forw-song"><i class="fa-solid fa-forward-step" style="color: #ffffff;"></i></div>
+        </div>
+        <div class="progressbar">
+            <input class="progress-bar" type="range" value="0" name="progress-bar" id="progress-bar" min="0" max="100">
+        </div>
+        <div class="song-info">
+            <img id="gif" src="images/gif.gif" />
+            <span class="span-song-name">Let Me Down Slowly</span>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/3efb5b8a36.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
